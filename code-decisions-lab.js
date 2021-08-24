@@ -46,7 +46,11 @@ if (amysAge > brittanisAge) {
 
 //CODE HERE
 
-
+if (amysBirthYear === brittanisBirthYear) {
+  console.log('Amy & Brittani were born in the same year')
+} else {
+  console.log('Amy & Brittani were not born in the same year')
+}
 
 // For problems 4-5 use the following lines of code:
 var arr = [10,20,30,40,50,60]
@@ -57,7 +61,7 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-
+let firstItem = arr[0];
 
 ////////// PROBLEM 5 //////////
 /*
@@ -65,6 +69,8 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
+let lastItemRemoved = arr.pop()
+console.log(arr)
 
 ////////// PROBLEM 6 //////////
 
@@ -77,7 +83,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-
+for (var i = 0; i = arr.length; i++) {
+  console.log(arr[i])
+}
 
 
 ////////// PROBLEM 7 //////////
