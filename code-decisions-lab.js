@@ -7,7 +7,6 @@
 */
 
 //CODE HERE
-
 let lovesCode = true
 
 if (lovesCode === true) {
@@ -29,7 +28,6 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
 if (amysAge > brittanisAge) {
   console.log('Amy is older')
 } else if (amysAge === brittanisAge) {
@@ -45,7 +43,6 @@ if (amysAge > brittanisAge) {
 */
 
 //CODE HERE
-
 if (amysBirthYear === brittanisBirthYear) {
   console.log('Amy & Brittani were born in the same year')
 } else {
@@ -83,10 +80,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-for (var i = 0; i = arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
   console.log(arr[i])
 }
-
 
 ////////// PROBLEM 7 //////////
 
@@ -100,8 +96,12 @@ let evensArr = []
 */
 
 //Code Here
-
-
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] %2 === 0) {
+    evensArr.push(nums[i])
+  }
+}  
+  console.log(evensArr) 
 
 ////////// PROBLEM 8 //////////
 
