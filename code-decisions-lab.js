@@ -80,9 +80,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i])
+for (let i = 0; i < arr.length; i++) {  
 }
+console.log(family)
 
 ////////// PROBLEM 7 //////////
 
@@ -114,7 +114,18 @@ var score = 74
 */
 
 //Code Here
+let grade =[]
 
+if (score >= 90) {
+  grade.push("A")
+} else if (score <90 && score >=80 ) {
+  grade.push("B")
+} else if (score <80 && score >=70 ) {
+  grade.push("C")
+} else if (score <70 ) {
+  grade.push("D")
+}
+console.log(grade)
 
 ////////// Intermediate Problems //////////
 
